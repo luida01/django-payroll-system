@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\config\\__pycache__",
+    "\\payroll",
+    "\\payroll\\fixtures",
+    "\\payroll\\migrations",
+    "\\__MACOSX"
+  ],
+  "SelectedNode": "\\payroll\\serializers.py",
+  "PreviewInSolutionExplorer": false
+}

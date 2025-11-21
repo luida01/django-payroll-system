@@ -1,0 +1,1203 @@
+[
+  {
+    "model": "payroll.institution",
+    "pk": 1,
+    "fields": {
+      "name": "Cooperativa Barcelona Sur",
+      "address": "Carrer de la Marina, 123, 08013 Barcelona",
+      "phone": "+34932145678"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 2,
+    "fields": {
+      "name": "Cooperativa Eixample",
+      "address": "Passeig de Gràcia, 45, 08008 Barcelona",
+      "phone": "+34932145679"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 3,
+    "fields": {
+      "name": "Cooperativa Gracia",
+      "address": "Carrer Gran de Gràcia, 78, 08012 Barcelona",
+      "phone": "+34932145680"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 4,
+    "fields": {
+      "name": "Cooperativa Sant Martí",
+      "address": "Avinguda Diagonal, 200, 08018 Barcelona",
+      "phone": "+34932145681"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 5,
+    "fields": {
+      "name": "Cooperativa Sants-Montjuïc",
+      "address": "Carrer de la Creu Coberta, 104, 08014 Barcelona",
+      "phone": "+34932145682"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 6,
+    "fields": {
+      "name": "Cooperativa Ciutat Vella",
+      "address": "Carrer de la Boqueria, 12, 08002 Barcelona",
+      "phone": "+34932145683"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 7,
+    "fields": {
+      "name": "Cooperativa Horta-Guinardó",
+      "address": "Carrer de Tajo, 45, 08032 Barcelona",
+      "phone": "+34932145684"
+    }
+  },
+  {
+    "model": "payroll.institution",
+    "pk": 8,
+    "fields": {
+      "name": "Cooperativa Nou Barris",
+      "address": "Avinguda Meridiana, 300, 08027 Barcelona",
+      "phone": "+34932145685"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 1,
+    "fields": {
+      "name": "Tecnología e Informática"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 2,
+    "fields": {
+      "name": "Recursos Humanos"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 3,
+    "fields": {
+      "name": "Finanzas y Contabilidad"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 4,
+    "fields": {
+      "name": "Marketing y Comunicación"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 5,
+    "fields": {
+      "name": "Ventas y Comercial"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 6,
+    "fields": {
+      "name": "Operaciones"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 7,
+    "fields": {
+      "name": "Atención al Cliente"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 8,
+    "fields": {
+      "name": "Legal y Compliance"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 9,
+    "fields": {
+      "name": "Investigación y Desarrollo"
+    }
+  },
+  {
+    "model": "payroll.department",
+    "pk": 10,
+    "fields": {
+      "name": "Administración"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 1,
+    "fields": {
+      "name": "Desarrollador Backend"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 2,
+    "fields": {
+      "name": "Desarrollador Frontend"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 3,
+    "fields": {
+      "name": "Desarrollador Full Stack"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 4,
+    "fields": {
+      "name": "Gerente de Proyecto"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 5,
+    "fields": {
+      "name": "Director de Recursos Humanos"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 6,
+    "fields": {
+      "name": "Especialista en Recursos Humanos"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 7,
+    "fields": {
+      "name": "Contador"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 8,
+    "fields": {
+      "name": "Analista Financiero"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 9,
+    "fields": {
+      "name": "Especialista en Marketing Digital"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 10,
+    "fields": {
+      "name": "Ejecutivo de Ventas"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 11,
+    "fields": {
+      "name": "Representante de Atención al Cliente"
+    }
+  },
+  {
+    "model": "payroll.position",
+    "pk": 12,
+    "fields": {
+      "name": "Asesor Legal"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 1,
+    "fields": {
+      "name": "Carlos Martínez García",
+      "email": "carlos.martinez@coopbarcelona.es",
+      "phone": "+34612345678",
+      "institution": 1,
+      "position": 1,
+      "department": 1,
+      "salary": "45000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 2,
+    "fields": {
+      "name": "Ana López Rodríguez",
+      "email": "ana.lopez@coopbarcelona.es",
+      "phone": "+34612345679",
+      "institution": 1,
+      "position": 2,
+      "department": 1,
+      "salary": "42000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 3,
+    "fields": {
+      "name": "David Sánchez Pérez",
+      "email": "david.sanchez@coopbarcelona.es",
+      "phone": "+34612345680",
+      "institution": 1,
+      "position": 3,
+      "department": 1,
+      "salary": "48000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 4,
+    "fields": {
+      "name": "Laura Fernández Torres",
+      "email": "laura.fernandez@coopbarcelona.es",
+      "phone": "+34612345681",
+      "institution": 1,
+      "position": 5,
+      "department": 2,
+      "salary": "55000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 5,
+    "fields": {
+      "name": "Miguel González Ruiz",
+      "email": "miguel.gonzalez@coopbarcelona.es",
+      "phone": "+34612345682",
+      "institution": 1,
+      "position": 7,
+      "department": 3,
+      "salary": "38000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 6,
+    "fields": {
+      "name": "Sofía Ramírez Díaz",
+      "email": "sofia.ramirez@coopbarcelona.es",
+      "phone": "+34612345683",
+      "institution": 1,
+      "position": 9,
+      "department": 4,
+      "salary": "40000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 7,
+    "fields": {
+      "name": "Javier Moreno Jiménez",
+      "email": "javier.moreno@coopbarcelona.es",
+      "phone": "+34612345684",
+      "institution": 1,
+      "position": 10,
+      "department": 5,
+      "salary": "35000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 8,
+    "fields": {
+      "name": "Elena Castro Martín",
+      "email": "elena.castro@coopbarcelona.es",
+      "phone": "+34612345685",
+      "institution": 1,
+      "position": 11,
+      "department": 7,
+      "salary": "32000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 9,
+    "fields": {
+      "name": "Roberto Vázquez Serrano",
+      "email": "roberto.vazquez@coopbarcelona.es",
+      "phone": "+34612345686",
+      "institution": 2,
+      "position": 1,
+      "department": 1,
+      "salary": "46000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 10,
+    "fields": {
+      "name": "Carmen Navarro Blanco",
+      "email": "carmen.navarro@coopbarcelona.es",
+      "phone": "+34612345687",
+      "institution": 2,
+      "position": 2,
+      "department": 1,
+      "salary": "43000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 11,
+    "fields": {
+      "name": "Pablo Iglesias Suárez",
+      "email": "pablo.iglesias@coopbarcelona.es",
+      "phone": "+34612345688",
+      "institution": 2,
+      "position": 4,
+      "department": 1,
+      "salary": "52000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 12,
+    "fields": {
+      "name": "Isabel Molina Gutiérrez",
+      "email": "isabel.molina@coopbarcelona.es",
+      "phone": "+34612345689",
+      "institution": 2,
+      "position": 6,
+      "department": 2,
+      "salary": "39000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 13,
+    "fields": {
+      "name": "Fernando Delgado Ramos",
+      "email": "fernando.delgado@coopbarcelona.es",
+      "phone": "+34612345690",
+      "institution": 2,
+      "position": 8,
+      "department": 3,
+      "salary": "41000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 14,
+    "fields": {
+      "name": "Patricia Herrera Ortega",
+      "email": "patricia.herrera@coopbarcelona.es",
+      "phone": "+34612345691",
+      "institution": 2,
+      "position": 9,
+      "department": 4,
+      "salary": "40500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 15,
+    "fields": {
+      "name": "Antonio Rubio Marín",
+      "email": "antonio.rubio@coopbarcelona.es",
+      "phone": "+34612345692",
+      "institution": 2,
+      "position": 10,
+      "department": 5,
+      "salary": "36000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 16,
+    "fields": {
+      "name": "María José Domínguez Gil",
+      "email": "mariajose.dominguez@coopbarcelona.es",
+      "phone": "+34612345693",
+      "institution": 2,
+      "position": 12,
+      "department": 8,
+      "salary": "47000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 17,
+    "fields": {
+      "name": "Juan Carlos Alarcón Vega",
+      "email": "juancarlos.alarcon@coopbarcelona.es",
+      "phone": "+34612345694",
+      "institution": 3,
+      "position": 3,
+      "department": 1,
+      "salary": "49000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 18,
+    "fields": {
+      "name": "Cristina Pardo Campos",
+      "email": "cristina.pardo@coopbarcelona.es",
+      "phone": "+34612345695",
+      "institution": 3,
+      "position": 1,
+      "department": 1,
+      "salary": "45500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 19,
+    "fields": {
+      "name": "Alejandro Núñez Calvo",
+      "email": "alejandro.nunez@coopbarcelona.es",
+      "phone": "+34612345696",
+      "institution": 3,
+      "position": 2,
+      "department": 1,
+      "salary": "42500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 20,
+    "fields": {
+      "name": "Beatriz Méndez León",
+      "email": "beatriz.mendez@coopbarcelona.es",
+      "phone": "+34612345697",
+      "institution": 3,
+      "position": 4,
+      "department": 1,
+      "salary": "51000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 21,
+    "fields": {
+      "name": "Ricardo Peña Cortés",
+      "email": "ricardo.pena@coopbarcelona.es",
+      "phone": "+34612345698",
+      "institution": 3,
+      "position": 5,
+      "department": 2,
+      "salary": "56000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 22,
+    "fields": {
+      "name": "Lucía Rivas Méndez",
+      "email": "lucia.rivas@coopbarcelona.es",
+      "phone": "+34612345699",
+      "institution": 3,
+      "position": 7,
+      "department": 3,
+      "salary": "38500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 23,
+    "fields": {
+      "name": "Óscar Garrido Fuentes",
+      "email": "oscar.garrido@coopbarcelona.es",
+      "phone": "+34612345700",
+      "institution": 3,
+      "position": 8,
+      "department": 3,
+      "salary": "41500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 24,
+    "fields": {
+      "name": "Natalia Vargas Sosa",
+      "email": "natalia.vargas@coopbarcelona.es",
+      "phone": "+34612345701",
+      "institution": 3,
+      "position": 11,
+      "department": 7,
+      "salary": "32500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 25,
+    "fields": {
+      "name": "Manuel Cortés Medina",
+      "email": "manuel.cortes@coopbarcelona.es",
+      "phone": "+34612345702",
+      "institution": 4,
+      "position": 1,
+      "department": 1,
+      "salary": "47000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 26,
+    "fields": {
+      "name": "Rosa Aguilar Rojas",
+      "email": "rosa.aguilar@coopbarcelona.es",
+      "phone": "+34612345703",
+      "institution": 4,
+      "position": 3,
+      "department": 1,
+      "salary": "48500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 27,
+    "fields": {
+      "name": "Francisco Javier Mora",
+      "email": "franciscojavier.mora@coopbarcelona.es",
+      "phone": "+34612345704",
+      "institution": 4,
+      "position": 4,
+      "department": 1,
+      "salary": "53000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 28,
+    "fields": {
+      "name": "Marta Soler Ibáñez",
+      "email": "marta.soler@coopbarcelona.es",
+      "phone": "+34612345705",
+      "institution": 4,
+      "position": 6,
+      "department": 2,
+      "salary": "39500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 29,
+    "fields": {
+      "name": "José Luis Cárdenas",
+      "email": "joseluis.cardenas@coopbarcelona.es",
+      "phone": "+34612345706",
+      "institution": 4,
+      "position": 7,
+      "department": 3,
+      "salary": "37500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 30,
+    "fields": {
+      "name": "Silvia Montoya Parra",
+      "email": "silvia.montoya@coopbarcelona.es",
+      "phone": "+34612345707",
+      "institution": 4,
+      "position": 9,
+      "department": 4,
+      "salary": "40200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 31,
+    "fields": {
+      "name": "Víctor Guzmán Carrasco",
+      "email": "victor.guzman@coopbarcelona.es",
+      "phone": "+34612345708",
+      "institution": 4,
+      "position": 10,
+      "department": 5,
+      "salary": "35500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 32,
+    "fields": {
+      "name": "Adriana Flores Pacheco",
+      "email": "adriana.flores@coopbarcelona.es",
+      "phone": "+34612345709",
+      "institution": 4,
+      "position": 12,
+      "department": 8,
+      "salary": "47500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 33,
+    "fields": {
+      "name": "Daniel Espinosa Ríos",
+      "email": "daniel.espinosa@coopbarcelona.es",
+      "phone": "+34612345710",
+      "institution": 5,
+      "position": 2,
+      "department": 1,
+      "salary": "42800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 34,
+    "fields": {
+      "name": "Gloria Reyes Acosta",
+      "email": "gloria.reyes@coopbarcelona.es",
+      "phone": "+34612345711",
+      "institution": 5,
+      "position": 1,
+      "department": 1,
+      "salary": "46200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 35,
+    "fields": {
+      "name": "Álvaro Mendoza Silva",
+      "email": "alvaro.mendoza@coopbarcelona.es",
+      "phone": "+34612345712",
+      "institution": 5,
+      "position": 3,
+      "department": 1,
+      "salary": "48700.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 36,
+    "fields": {
+      "name": "Inés Valero Cuevas",
+      "email": "ines.valero@coopbarcelona.es",
+      "phone": "+34612345713",
+      "institution": 5,
+      "position": 5,
+      "department": 2,
+      "salary": "54500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 37,
+    "fields": {
+      "name": "Héctor Campos Lozano",
+      "email": "hector.campos@coopbarcelona.es",
+      "phone": "+34612345714",
+      "institution": 5,
+      "position": 8,
+      "department": 3,
+      "salary": "41200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 38,
+    "fields": {
+      "name": "Raquel Benítez Montes",
+      "email": "raquel.benitez@coopbarcelona.es",
+      "phone": "+34612345715",
+      "institution": 5,
+      "position": 9,
+      "department": 4,
+      "salary": "40800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 39,
+    "fields": {
+      "name": "Sergio Andrés Segura",
+      "email": "sergio.andres@coopbarcelona.es",
+      "phone": "+34612345716",
+      "institution": 5,
+      "position": 10,
+      "department": 5,
+      "salary": "35800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 40,
+    "fields": {
+      "name": "Teresa Romero Palacios",
+      "email": "teresa.romero@coopbarcelona.es",
+      "phone": "+34612345717",
+      "institution": 5,
+      "position": 11,
+      "department": 7,
+      "salary": "32800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 41,
+    "fields": {
+      "name": "Andrés Salinas Bravo",
+      "email": "andres.salinas@coopbarcelona.es",
+      "phone": "+34612345718",
+      "institution": 6,
+      "position": 1,
+      "department": 1,
+      "salary": "46400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 42,
+    "fields": {
+      "name": "Claudia Velasco Gallardo",
+      "email": "claudia.velasco@coopbarcelona.es",
+      "phone": "+34612345719",
+      "institution": 6,
+      "position": 2,
+      "department": 1,
+      "salary": "43200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 43,
+    "fields": {
+      "name": "Rubén Hidalgo Durán",
+      "email": "ruben.hidalgo@coopbarcelona.es",
+      "phone": "+34612345720",
+      "institution": 6,
+      "position": 4,
+      "department": 1,
+      "salary": "51500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 44,
+    "fields": {
+      "name": "Yolanda Prieto Santana",
+      "email": "yolanda.prieto@coopbarcelona.es",
+      "phone": "+34612345721",
+      "institution": 6,
+      "position": 6,
+      "department": 2,
+      "salary": "39200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 45,
+    "fields": {
+      "name": "Iván Crespo Otero",
+      "email": "ivan.crespo@coopbarcelona.es",
+      "phone": "+34612345722",
+      "institution": 6,
+      "position": 7,
+      "department": 3,
+      "salary": "38200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 46,
+    "fields": {
+      "name": "Lorena Bautista Montero",
+      "email": "lorena.bautista@coopbarcelona.es",
+      "phone": "+34612345723",
+      "institution": 6,
+      "position": 8,
+      "department": 3,
+      "salary": "41800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 47,
+    "fields": {
+      "name": "Jorge Muñoz Lara",
+      "email": "jorge.munoz@coopbarcelona.es",
+      "phone": "+34612345724",
+      "institution": 6,
+      "position": 9,
+      "department": 4,
+      "salary": "40400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 48,
+    "fields": {
+      "name": "Alicia Gallego Esteban",
+      "email": "alicia.gallego@coopbarcelona.es",
+      "phone": "+34612345725",
+      "institution": 6,
+      "position": 12,
+      "department": 8,
+      "salary": "47200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 49,
+    "fields": {
+      "name": "Enrique Pascual Redondo",
+      "email": "enrique.pascual@coopbarcelona.es",
+      "phone": "+34612345726",
+      "institution": 7,
+      "position": 3,
+      "department": 1,
+      "salary": "48800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 50,
+    "fields": {
+      "name": "Verónica Villalba Aranda",
+      "email": "veronica.villalba@coopbarcelona.es",
+      "phone": "+34612345727",
+      "institution": 7,
+      "position": 1,
+      "department": 1,
+      "salary": "46800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 51,
+    "fields": {
+      "name": "Marcos Bernal Cobo",
+      "email": "marcos.bernal@coopbarcelona.es",
+      "phone": "+34612345728",
+      "institution": 7,
+      "position": 2,
+      "department": 1,
+      "salary": "43400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 52,
+    "fields": {
+      "name": "Celia Arévalo Mateos",
+      "email": "celia.arevalo@coopbarcelona.es",
+      "phone": "+34612345729",
+      "institution": 7,
+      "position": 4,
+      "department": 1,
+      "salary": "51200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 53,
+    "fields": {
+      "name": "Guillermo Blázquez Nieto",
+      "email": "guillermo.blazquez@coopbarcelona.es",
+      "phone": "+34612345730",
+      "institution": 7,
+      "position": 5,
+      "department": 2,
+      "salary": "55200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 54,
+    "fields": {
+      "name": "Rocío Cobo Pozo",
+      "email": "rocio.cobo@coopbarcelona.es",
+      "phone": "+34612345731",
+      "institution": 7,
+      "position": 7,
+      "department": 3,
+      "salary": "38400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 55,
+    "fields": {
+      "name": "Gonzalo Galán Arroyo",
+      "email": "gonzalo.galan@coopbarcelona.es",
+      "phone": "+34612345732",
+      "institution": 7,
+      "position": 8,
+      "department": 3,
+      "salary": "41600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 56,
+    "fields": {
+      "name": "Paula Cano Roldán",
+      "email": "paula.cano@coopbarcelona.es",
+      "phone": "+34612345733",
+      "institution": 7,
+      "position": 10,
+      "department": 5,
+      "salary": "36200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 57,
+    "fields": {
+      "name": "Jesús Mateo Calleja",
+      "email": "jesus.mateo@coopbarcelona.es",
+      "phone": "+34612345734",
+      "institution": 7,
+      "position": 11,
+      "department": 7,
+      "salary": "33200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 58,
+    "fields": {
+      "name": "Esther Cordero Barrios",
+      "email": "esther.cordero@coopbarcelona.es",
+      "phone": "+34612345735",
+      "institution": 8,
+      "position": 1,
+      "department": 1,
+      "salary": "46600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 59,
+    "fields": {
+      "name": "Alberto Jurado Quintero",
+      "email": "alberto.jurado@coopbarcelona.es",
+      "phone": "+34612345736",
+      "institution": 8,
+      "position": 3,
+      "department": 1,
+      "salary": "48600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 60,
+    "fields": {
+      "name": "Noelia Zamora Peralta",
+      "email": "noelia.zamora@coopbarcelona.es",
+      "phone": "+34612345737",
+      "institution": 8,
+      "position": 2,
+      "department": 1,
+      "salary": "43600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 61,
+    "fields": {
+      "name": "Félix Rueda Escudero",
+      "email": "felix.rueda@coopbarcelona.es",
+      "phone": "+34612345738",
+      "institution": 8,
+      "position": 4,
+      "department": 1,
+      "salary": "51400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 62,
+    "fields": {
+      "name": "Miriam Téllez Baena",
+      "email": "miriam.tellez@coopbarcelona.es",
+      "phone": "+34612345739",
+      "institution": 8,
+      "position": 6,
+      "department": 2,
+      "salary": "39400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 63,
+    "fields": {
+      "name": "Óscar Lozano Macías",
+      "email": "oscar.lozano@coopbarcelona.es",
+      "phone": "+34612345740",
+      "institution": 8,
+      "position": 7,
+      "department": 3,
+      "salary": "38600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 64,
+    "fields": {
+      "name": "Lidia Pozo Valverde",
+      "email": "lidia.pozo@coopbarcelona.es",
+      "phone": "+34612345741",
+      "institution": 8,
+      "position": 8,
+      "department": 3,
+      "salary": "41400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 65,
+    "fields": {
+      "name": "Joaquín Roldán Cáceres",
+      "email": "joaquin.roldan@coopbarcelona.es",
+      "phone": "+34612345742",
+      "institution": 8,
+      "position": 9,
+      "department": 4,
+      "salary": "40600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 66,
+    "fields": {
+      "name": "Susana Calleja Paredes",
+      "email": "susana.calleja@coopbarcelona.es",
+      "phone": "+34612345743",
+      "institution": 8,
+      "position": 10,
+      "department": 5,
+      "salary": "36400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 67,
+    "fields": {
+      "name": "Tomás Barrios Carmona",
+      "email": "tomas.barrios@coopbarcelona.es",
+      "phone": "+34612345744",
+      "institution": 8,
+      "position": 11,
+      "department": 7,
+      "salary": "33400.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 68,
+    "fields": {
+      "name": "Amparo Quintero Rosales",
+      "email": "amparo.quintero@coopbarcelona.es",
+      "phone": "+34612345745",
+      "institution": 1,
+      "position": 4,
+      "department": 1,
+      "salary": "52500.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 69,
+    "fields": {
+      "name": "Rafael Peralta Cid",
+      "email": "rafael.peralta@coopbarcelona.es",
+      "phone": "+34612345746",
+      "institution": 2,
+      "position": 3,
+      "department": 1,
+      "salary": "49200.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 70,
+    "fields": {
+      "name": "Dolores Escudero Pino",
+      "email": "dolores.escudero@coopbarcelona.es",
+      "phone": "+34612345747",
+      "institution": 3,
+      "position": 6,
+      "department": 2,
+      "salary": "39700.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 71,
+    "fields": {
+      "name": "Emilio Baena Ríos",
+      "email": "emilio.baena@coopbarcelona.es",
+      "phone": "+34612345748",
+      "institution": 4,
+      "position": 5,
+      "department": 2,
+      "salary": "54800.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 72,
+    "fields": {
+      "name": "Concepción Macías Arjona",
+      "email": "concepcion.macias@coopbarcelona.es",
+      "phone": "+34612345749",
+      "institution": 5,
+      "position": 4,
+      "department": 1,
+      "salary": "51600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 73,
+    "fields": {
+      "name": "Agustín Valverde Cuesta",
+      "email": "agustin.valverde@coopbarcelona.es",
+      "phone": "+34612345750",
+      "institution": 6,
+      "position": 10,
+      "department": 5,
+      "salary": "36600.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 74,
+    "fields": {
+      "name": "Remedios Cáceres Paniagua",
+      "email": "remedios.caceres@coopbarcelona.es",
+      "phone": "+34612345751",
+      "institution": 7,
+      "position": 9,
+      "department": 4,
+      "salary": "41000.00"
+    }
+  },
+  {
+    "model": "payroll.employee",
+    "pk": 75,
+    "fields": {
+      "name": "Fermín Paredes Aranda",
+      "email": "fermin.paredes@coopbarcelona.es",
+      "phone": "+34612345752",
+      "institution": 8,
+      "position": 12,
+      "department": 8,
+      "salary": "47800.00"
+    }
+  }
+]
